@@ -1,0 +1,64 @@
+
+.inventory-body-main {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+.inventory-body-main::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0.5; /* Ajuste el valor de opacidad según sea necesario*/
+z-index: -1;
+background-color: azure;
+background-repeat: no-repeat;
+background-size: cover;
+}
+table.tableCSS tbody tr td, table.tableCSS tbody tr th{
+    width: 10rem;
+}
+.field{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 244px;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+}
+.submitBtn{
+    background-color: #847777;
+    color: white;
+    width: 244px;
+    padding: 10px 106px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .inventory-body-content {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .inventory-body-list-left {
+        width: 100vw;
+        margin: 0 0 2rem 0;
+    }
+    .inventory-body-forms{
+        margin: 0 2rem 0 2rem;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+    table.tableCSS {
+        margin: 1rem;
+    }
+    .field{
+        font-size: 16px;
+    }
+}

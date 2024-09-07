@@ -1,0 +1,15 @@
+
+.login-body-content-left{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2261d6, #2a5298); /* Degradado azul */
+    height: 100vh; /* Para ocupar toda la pantalla */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: #fff;
+
+}
+
+  
+  
